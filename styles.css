@@ -52,6 +52,10 @@ body {
     z-index: 1; /* Fica abaixo da navbar mas acima do conteúdo */
 }
 
+.side-menu.active {
+    left: 0;
+}
+
 /* Estilo da lista do menu lateral */
 .side-menu ul {
     list-style-type: none;
