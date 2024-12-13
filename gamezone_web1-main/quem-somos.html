@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem somos nós? - GameZone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-toggle" onclick="toggleSidebar()">&#9776;</button>
+            <span class="site-name">GameZone.com</span>
+        </div>
+    </header>
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <button class="close-btn" onclick="toggleSidebar()">&#10005;</button>
+            <ul>
+                <li><a href="index.html">Menu Principal</a></li>
+                <li>
+                    <a href="#">
+                        <img src="images/nfl.png" alt="Logo NFL" class="icon"> NFL
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/nba.png" alt="Logo NBA" class="icon"> NBA
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/f1.png" alt="Logo Fórmula 1" class="icon"> Fórmula 1
+                    </a>
+                </li>
+                <li><a href="#">Futebol</a></li>
+                <li>
+                    <a href="quem-somos.html">
+                        <img src="images/quem-somos.png" alt="Logo ?" class="icon"> Quem somos nós?
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h1>Quem somos nós?</h1>
+            <p>
+                O <strong>GameZone</strong> é um site criado com o objetivo de aumentar a popularidade 
+                de esportes menos conhecidos no Brasil. Nossa missão é trazer informações, notícias e 
+                curiosidades sobre modalidades esportivas que merecem mais destaque, conectando fãs e 
+                inspirando novos praticantes.
+            </p>
+            <p>
+                Acreditamos no poder do esporte como ferramenta de transformação social e cultural. 
+                Junte-se a nós para explorar o mundo dos esportes e compartilhar essa paixão!
+            </p>
+        </main>
+    </div>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

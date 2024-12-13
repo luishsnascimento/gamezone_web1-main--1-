@@ -1,0 +1,38 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"pt-br\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Esportagem</title>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n<body>\r\n    <header class=\"header\">\r\n        <div class=\"header-left\">\r\n            <button class=\"menu-toggle\" onclick=\"toggleSidebar()\">&#9776;</button>\r\n            <span class=\"site-name\">Esportagem.com</span>\r\n        </div>\r\n    </header>\r\n    <div class=\"container\">\r\n        <nav class=\"sidebar\" id=\"sidebar\">\r\n            <button class=\"close-btn\" onclick=\"toggleSidebar()\">&#10005;</button>\r\n            <ul>\r\n                <li><a href=\"index.html\">Menu Principal</a></li>\r\n                <li>\r\n                    <a href=\"nfl.html\">\r\n                        <img src=\"images/nfl.png\" alt=\"Logo NFL\" class=\"icon\"> NFL\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"#\">\r\n                        <img src=\"images/nba.png\" alt=\"Logo NBA\" class=\"icon\"> NBA\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"#\">\r\n                        <img src=\"images/f1.png\" alt=\"Logo Fórmula 1\" class=\"icon\"> Fórmula 1\r\n                    </a>\r\n                </li>\r\n                <li><a href=\"#\">Futebol</a></li>\r\n                <li>\r\n                    <a href=\"quem-somos.html\">\r\n                        <img src=\"images/quem-somos.png\" alt=\"Logo ?\" class=\"icon\"> Quem somos nós?\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </nav>\r\n        <main class=\"content\">\r\n            <h1>Bem-vindo ao Esportagem</h1>\r\n            <p>Seu portal para explorar e acompanhar esportes de todos os tipos!</p>\r\n        </main>\r\n    </div>\r\n    <script>\r\n        function toggleSidebar() {\r\n            const sidebar = document.getElementById('sidebar');\r\n            sidebar.classList.toggle('active');\r\n        }\r\n    </script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 377208cb0886d77cea81b3667620f946010667ad)
++++ b/index.html	(date 1734040936266)
+@@ -48,6 +48,27 @@
+         </main>
+     </div>
+     <script>
++        let currentIndex = 0;
++        const items = document.querySelectorAll('.carousel-item');
++
++        function moveCarousel() {
++            // Remover a classe 'active' da imagem atual
++            items[currentIndex].classList.remove('active');
++
++            // Atualiza o índice para a próxima imagem, e se chegar ao fim, volta para a primeira
++            currentIndex = (currentIndex + 1) % items.length;
++
++            // Adicionar a classe 'active' à próxima imagem
++            items[currentIndex].classList.add('active');
++        }
++
++        // Exibe a primeira imagem inicialmente
++        items[currentIndex].classList.add('active');
++
++        // Muda a cada 5 segundos
++        setInterval(moveCarousel, 5000);
++
++
+         function toggleSidebar() {
+             const sidebar = document.getElementById('sidebar');
+             sidebar.classList.toggle('active');

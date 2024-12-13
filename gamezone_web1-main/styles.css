@@ -1,0 +1,382 @@
+/* Estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede o scroll horizontal */
+}
+
+/* Estilo da navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    z-index: 2; /* Navbar deve estar acima de todos */
+    position: relative; /* Necessário para garantir que o z-index funcione */
+}
+
+/* Estilo do ícone do menu */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px; /* Espaço entre o ícone e o nome */
+}
+
+/* Estilo das barras do ícone do menu */
+.bar {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: white;
+}
+
+/* Estilo do logo */
+.logo h1 {
+    margin: 0;
+}
+
+/* Estilo do menu lateral */
+.side-menu {
+    position: fixed; /* Mudei de absolute para fixed para garantir que o menu fique na tela */
+    top: 0; /* Fica no topo da tela */
+    left: -250px; /* Inicialmente fora da tela */
+    width: 250px;
+    height: 100%; /* Ocupa toda a altura da tela */
+    background-color: #111;
+    color: white;
+    transition: left 0.3s ease; /* Transição suave para a esquerda */
+    padding-top: 60px; /* Para não cobrir o conteúdo da navbar */
+    z-index: 1; /* Fica abaixo da navbar mas acima do conteúdo */
+}
+
+/* Estilo da lista do menu lateral */
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo dos itens do menu lateral */
+.side-menu ul li {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+/* Estilo dos links do menu lateral */
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo quando o menu lateral está ativo */
+.side-menu.active {
+    left: 0; /* Quando ativo, o menu aparece na tela */
+}
+
+/* Estilo principal do conteúdo */
+main {
+    z-index: 0; /* Fica abaixo do menu lateral */
+    background-color: #f4f4f4;
+}
+
+/* Estilo do container principal das imagens */
+.img-principal-container {
+    width: 100vw; /* Largura total da tela */
+    height: 560px; /* Altura fixa */
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os filhos, garantindo que fiquem distribuídos */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #252422;
+    position: relative;
+    /*border: 2px solid blue;*/
+}
+
+/* Estilo do título do carrossel */
+.carousel-title {
+    width: 20%; /* Cada filho ocupa 1/3 do espaço */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Alinha o texto à esquerda */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    /*border: 2px solid deeppink;*/
+}
+
+
+.carousel {
+    /*border: 2px solid red;*/
+    width: 80%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+/* Estilo do container do carrossel */
+.img-carousel-container {
+    width: 854px; /* Cada filho ocupa 1/3 do espaço */
+    height: 480px; /* Altura fixa do carrossel */
+    border-radius: 20px;
+    position: relative; /* Necessário para posicionar as imagens dentro dela */
+    overflow: hidden; /* Esconde as imagens que saem da área visível */
+    /*border: 2px solid yellow;*/
+    margin-top: 30px;
+}
+
+/* Estilo da área de texto do carrossel */
+.carousel-text-container {
+    width: 20%; /* Cada filho ocupa 1/3 do espaço */
+    height: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+    color: white;
+    /*border: 2px solid lawngreen;*/
+}
+
+/* Estilo das imagens do carrossel */
+.carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que as imagens cubram toda a área sem distorção */
+    opacity: 0; /* Inicialmente, as imagens são invisíveis */
+    transition: opacity 1s ease; /* Transição suave para alternar entre as imagens */
+}
+
+/* Estilo da imagem ativa */
+.carousel-image.active {
+    opacity: 1; /* Torna a imagem visível */
+}
+
+/* Estilo dos indicadores (bolinhas) */
+.carousel-indicators {
+    position: absolute;
+    bottom: 15px; /* Distância da parte inferior do carrossel */
+    display: flex;
+    justify-content: center; /* Centraliza as bolinhas horizontalmente */
+    width: 100%; /* Ocupa toda a largura do carrossel */
+}
+
+/* Estilo das bolinhas */
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Faz as bolinhas redondas */
+    background-color: rgba(255, 255, 255, 0.5); /* Cor branca com transparência */
+    margin: 0 5px; /* Espaçamento entre as bolinhas */
+    cursor: pointer; /* Torna as bolinhas clicáveis */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo da bolinha ativa */
+.indicator.active {
+    background-color: white; /* A bolinha ativa fica branca e visível */
+}
+
+
+/* Seção de Notícias */
+.news-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    height: 1200px; /* Agora a altura da seção será 100% da altura da janela */
+    box-sizing: border-box; /* Para garantir que o padding não afete a altura */
+    /*border:2px solid red;*/
+}
+
+/* Estilo da coluna esquerda com as notícias */
+.news-left {
+    flex: 0 0 70%; /* 70% da largura */
+    padding: 20px;
+    box-sizing: border-box; /* Para garantir que o padding não afete a largura */
+    height: 100%;
+    /*border:2px solid blue;*/
+}
+
+/* Estilo dos itens de notícias */
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+}
+
+/* Estilo da imagem das notícias */
+.news-image {
+    width: 300px; /* Largura máxima de 300px */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 5px;
+}
+
+/* Estilo do conteúdo das notícias */
+.news-content {
+    flex: 1; /* Faz o conteúdo ocupar o restante do espaço */
+}
+
+/* Estilo do título das notícias */
+.news-content h3 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+}
+
+/* Estilo do resumo das notícias */
+.news-summary {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Estilo da data de publicação */
+.news-date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Linha divisória entre as publicações */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Estilo da coluna da direita (widget) */
+.news-right {
+    flex: 0 0 28%; /* 28% da largura */
+    background-color: #252422;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; /* Para garantir que o padding não afete a largura */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    /*border:2px solid yellow;*/
+}
+
+.widget-container {
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    /*border: 2px solid red;*/
+}
+
+/* Títulos de cada esporte */
+.sports-section h5 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Cores diferentes para cada esporte */
+.formula-1 h5 {
+    background-color: #ff5733;
+}
+
+.nfl h5 {
+    background-color: #4caf50;
+}
+
+.nba h5 {
+    background-color: #2196f3;
+}
+
+/* Lista de resultados */
+.sports-section ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.sports-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc; /* Linhas entre nomes e pontuações de atletas e equipes */
+    margin-bottom: 20px;
+}
+
+/* Estilo do nome do atleta e times */
+.athlete {
+    font-weight: bold;
+    color: #333;
+}
+
+.teams {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo da pontuação */
+.score {
+    color: #555;
+}
+
+/* Estilo para a seção de propaganda */
+.widget-propaganda {
+    margin-top: 20px; /* Espaço acima da propaganda */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    width: 100%; /* Garante que a div se ajuste ao contêiner pai */
+    overflow: hidden; /* Evita que o conteúdo exceda os limites */
+    box-sizing: border-box; /* Inclui padding e border no cálculo de largura */
+}
+
+.widget-image {
+    max-width: 300px; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%; /* Previne que a imagem seja muito alta */
+    height: auto; /* Mantém a proporção correta da imagem */
+    border-radius: 8px; /* Deixa as bordas arredondadas (opcional) */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona um leve sombreamento (opcional) */
+}
+
+footer {
+    /* Estilos para o rodapé (se necessário) */
+    /*border: 2px solid lawngreen;*/
+    height: 250px;
+    max-height: 250px;
+    background-color: #000;
+}
+
+/*width: 854px; !* Largura fixa do carrossel *!*/
+
+.conference-container {
+    display: flex;
+    justify-content: space-between;
+}
+.conference {
+    width: 48%;
+}
+.division {
+    margin-bottom: 20px;
+}
+.division h3 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+.team {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.team img {
+    width: 40px;
+    margin-right: 15px;
+}
+.team strong {
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 2rem; 
+}

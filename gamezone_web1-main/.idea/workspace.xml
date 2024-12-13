@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Daniel-Lmv&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luishsnascimento/esportagem_web1.git&quot;,
+    &quot;accountId&quot;: &quot;88adbfe8-c9e7-46d3-99ff-4c72553686b9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2q8JJJ0G7WeC1nIqzDyBE8SmKjV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;daniel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel Limaverde/WebstormProjects/esportagem_web1/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.color&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel Limaverde\WebstormProjects\esportagem_web1\images" />
+      <recent name="C:\Users\Daniel Limaverde\WebstormProjects\esportagem_web1\images\noticias" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="" />
+      <created>1734038195619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734038195619</updated>
+      <workItem from="1734038196884" duration="8804000" />
+      <workItem from="1734047684880" duration="8486000" />
+      <workItem from="1734088890549" duration="308000" />
+      <workItem from="1734093737999" duration="8535000" />
+    </task>
+    <task id="LOCAL-00001" summary="Modificações Daniel v1.0">
+      <option name="closed" value="true" />
+      <created>1734046778727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734046778727</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modificações Daniel v1.0">
+      <option name="closed" value="true" />
+      <created>1734047715337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734047715337</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modificações Daniel v1.0">
+      <option name="closed" value="true" />
+      <created>1734047758728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734047758728</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modificações Daniel v1.1">
+      <option name="closed" value="true" />
+      <created>1734049857404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734049857404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modificações Daniel v1.2">
+      <option name="closed" value="true" />
+      <created>1734050371670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734050371670</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modificações Daniel v1.3">
+      <option name="closed" value="true" />
+      <created>1734052025197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734052025197</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modificações Daniel v1.4">
+      <option name="closed" value="true" />
+      <created>1734055863604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734055863604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modificações Daniel v1.0" />
+    <MESSAGE value="Modificações Daniel v1.1" />
+    <MESSAGE value="Modificações Daniel v1.2" />
+    <MESSAGE value="Modificações Daniel v1.3" />
+    <MESSAGE value="Modificações Daniel v1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificações Daniel v1.4" />
+  </component>
+</project>
