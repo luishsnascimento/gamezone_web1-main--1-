@@ -60,10 +60,13 @@ body {
 .side-menu ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 /* Estilo dos itens do menu lateral */
 .side-menu ul li {
+    display: flex;
+    align-items: center;
     padding: 15px 20px;
     text-align: left;
 }
@@ -72,8 +75,13 @@ body {
 .side-menu ul li a {
     color: white;
     text-decoration: none;
+    margin-right: 10px; /* Espaço entre o texto e a imagem */
 }
 
+.menu-icon {
+    width: 30px; /* Ajuste a largura da imagem */
+    height: 20px; /* Ajuste a altura da imagem */
+}
 /* Estilo quando o menu lateral está ativo */
 .side-menu.active {
     left: 0; /* Quando ativo, o menu aparece na tela */
@@ -355,27 +363,61 @@ footer {
 
 .conference-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
+
 .conference {
-    width: 48%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
 }
+
 .division {
-    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
-.division h3 {
-    margin-top: 0;
-    font-size: 1.6rem;
-}
+
 .team {
-    margin: 5px 0;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    margin: 10px 0;
 }
+
 .team img {
-    width: 40px;
-    margin-right: 15px;
+    width: 32px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.highlight {
+    background-color: #d4edda; /* Verde claro */
+    border-left: 5px solid #28a745;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.legend {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.legend .highlight {
+    color: #155724;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #d4edda;
+    border-radius: 3px;
 }
 .team strong {
     font-weight: bold;
@@ -383,4 +425,62 @@ footer {
 
 h1, h2 {
     font-size: 2rem; 
+}
+
+.team.wild-card {
+    background-color: rgb(243, 243, 91); /* Cor de fundo amarela para destaque */
+    border-radius: 5px; /* Bordas arredondadas para um efeito visual agradável */
+    padding: 5px; /* Adiciona espaçamento interno */
+}
+
+.legend .wild-card {
+    color: rgb(129, 129, 36);
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(243, 243, 91);
+    border-radius: 3px;
+}
+
+.conference img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.game {
+    background-color: #fff;
+    padding: 20px; /* Reduz o espaçamento interno da caixa */
+    border: 1px solid #ddd; /* Deixa a borda mais fina e clara */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+.game .teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 150px; 
+}
+
+.game .teams .team-logo {
+    width: 130px; 
+    height: 130px;
+    object-fit: contain; 
+    margin: 0 15px; 
+}
+
+.game .teams .vs {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    margin: 0px; 
+}
+
+.game .details {
+    text-align: center; 
+    font-size: 0.9rem; 
+    line-height: 0.5 ; 
+    color: #666; 
 }
