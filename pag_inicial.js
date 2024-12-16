@@ -1,48 +1,48 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-    // Script para mostrar/esconder o menu lateral ao clicar no ícone
     const menuIcon = document.getElementById("menu-icon");
     const sideMenu = document.getElementById("side-menu");
 
+    // Alternar menu lateral
     menuIcon.addEventListener("click", function () {
         sideMenu.classList.toggle("active");
     });
 
-    // Seleciona todas as imagens do carrossel
-    const images = document.querySelectorAll('.carousel-image');
-    const indicators = document.querySelectorAll('.indicator'); // Seleciona as bolinhas
+    // Carrossel: imagens, textos e indicadores
+    const images = document.querySelectorAll(".carousel-image");
+    const indicators = document.querySelectorAll(".indicator");
+    const newsItems = document.querySelectorAll(".news-text");
     let currentIndex = 0;
 
-    // Função para alternar entre as imagens
-    function changeImage() {
-        // Remove a classe "active" de todas as imagens e indicadores
-        images.forEach(image => {
-            image.classList.remove('active');
-        });
-        indicators.forEach(indicator => {
-            indicator.classList.remove('active');
-        });
+    // Função para atualizar a exibição do carrossel
+    function updateCarousel() {
+        // Remove "active" de todas as imagens, indicadores e textos
+        images.forEach(image => image.classList.remove("active"));
+        indicators.forEach(indicator => indicator.classList.remove("active"));
+        newsItems.forEach(news => news.classList.remove("active"));
 
-        // Adiciona a classe "active" à imagem e indicador atuais
-        images[currentIndex].classList.add('active');
-        indicators[currentIndex].classList.add('active');
-
-        // Atualiza o índice da imagem
-        currentIndex = (currentIndex + 1) % images.length; // Vai para a próxima imagem e volta ao início quando necessário
+        // Adiciona "active" ao item atual
+        images[currentIndex].classList.add("active");
+        indicators[currentIndex].classList.add("active");
+        newsItems[currentIndex].classList.add("active");
     }
 
-    // Inicia o carrossel
-    setInterval(changeImage, 5000); // Chama a função a cada 5 segundos
+    // Alternar automaticamente as imagens e textos a cada 5 segundos
+    function startCarousel() {
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % images.length; // Avança para o próximo índice (em loop)
+            updateCarousel();
+        }, 7000);
+    }
 
-    // Mostra a primeira imagem imediatamente
-    changeImage();
-
-    // Adiciona funcionalidade de clique nas bolinhas
+    // Configurar indicadores para troca manual de slides
     indicators.forEach(indicator => {
-        indicator.addEventListener('click', function () {
-            currentIndex = parseInt(indicator.getAttribute('data-index')); // Pega o índice da bolinha clicada
-            changeImage(); // Atualiza a imagem ativa
+        indicator.addEventListener("click", function () {
+            currentIndex = parseInt(indicator.getAttribute("data-index")); // Atualiza índice com base no indicador clicado
+            updateCarousel();
         });
     });
 
+    // Inicializa o carrossel
+    updateCarousel(); // Atualiza o carrossel para o slide inicial
+    startCarousel();  // Inicia o loop automático
 });
