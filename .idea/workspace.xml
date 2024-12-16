@@ -7,6 +7,7 @@
     <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pag_inicial.js" beforeDir="false" afterPath="$PROJECT_DIR$/pag_inicial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/luishsnascimento/esportagem_web1.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/luishsnascimento/gamezone_web1.git&quot;,
     &quot;accountId&quot;: &quot;88adbfe8-c9e7-46d3-99ff-4c72553686b9&quot;
   }
 }</component>
@@ -54,7 +55,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;daniel&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel Limaverde/WebstormProjects/esportagem_web1/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -90,6 +91,8 @@
       <workItem from="1734047684880" duration="8486000" />
       <workItem from="1734088890549" duration="308000" />
       <workItem from="1734093737999" duration="8535000" />
+      <workItem from="1734109590900" duration="728000" />
+      <workItem from="1734361665555" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações Daniel v1.0">
       <option name="closed" value="true" />
