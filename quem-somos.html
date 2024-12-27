@@ -7,42 +7,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header class="header">
-        <div class="header-left">
-            <button class="menu-toggle" onclick="toggleSidebar()">&#9776;</button>
-            <span class="site-name">GameZone.com</span>
+<body class="quem-somos">
+    <header>
+        <div class="navbar">
+            <div class="menu-icon" id="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="logo">
+                <h1>GameZone</h1>
+            </div>
         </div>
-    </header>
-    <div class="container">
-        <nav class="sidebar" id="sidebar">
-            <button class="close-btn" onclick="toggleSidebar()">&#10005;</button>
+        <div class="side-menu" id="side-menu">
             <ul>
-                <li><a href="index.html">Menu Principal</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quem-somos.html">Sobre</a></li>
                 <li>
-                    <a href="#">
-                        <img src="images/nfl.png" alt="Logo NFL" class="icon"> NFL
-                    </a>
+                    <a href="nfl.html">NFL</a>
+                    <img src="images/nfl.png" alt="NFL" class="menu-icon">
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/nba.png" alt="Logo NBA" class="icon"> NBA
-                    </a>
+                    <a href="#">NBA</a>
+                    <img src="images/nba.png" alt="NBA" class="menu-icon">
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="images/f1.png" alt="Logo Fórmula 1" class="icon"> Fórmula 1
-                    </a>
-                </li>
-                <li><a href="#">Futebol</a></li>
-                <li>
-                    <a href="quem-somos.html">
-                        <img src="images/quem-somos.png" alt="Logo ?" class="icon"> Quem somos nós?
-                    </a>
+                    <a href="#">Fórmula 1</a>
+                    <img src="images/f1.png" alt="Fórmula 1" class="menu-icon">
                 </li>
             </ul>
-        </nav>
-        <main class="content">
+        </div>
+    </header>
+        <div class="conteudo">
             <h1>Quem somos nós?</h1>
             <p>
                 O <strong>GameZone</strong> é um site criado com o objetivo de aumentar a popularidade 
@@ -54,13 +50,7 @@
                 Acreditamos no poder do esporte como ferramenta de transformação social e cultural. 
                 Junte-se a nós para explorar o mundo dos esportes e compartilhar essa paixão!
             </p>
-        </main>
     </div>
-    <script>
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            sidebar.classList.toggle('active');
-        }
-    </script>
+    <script src="pag_sobre.js"></script>
 </body>
 </html>

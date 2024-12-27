@@ -616,3 +616,21 @@ footer {
         margin-top: 15px;
     }
 }
+
+.quem-somos {
+    background-image: url(images/quem-somos.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; 
+}
+
+.quem-somos .conteudo {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
