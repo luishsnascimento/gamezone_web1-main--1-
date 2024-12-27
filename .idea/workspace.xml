@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.4">
+    <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.5">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pag_inicial.js" beforeDir="false" afterPath="$PROJECT_DIR$/pag_inicial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +96,8 @@
       <workItem from="1734088890549" duration="308000" />
       <workItem from="1734093737999" duration="8535000" />
       <workItem from="1734109590900" duration="728000" />
-      <workItem from="1734361665555" duration="4945000" />
+      <workItem from="1734361665555" duration="5112000" />
+      <workItem from="1735301788620" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações Daniel v1.0">
       <option name="closed" value="true" />
@@ -150,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734055863604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modificações Daniel v1.5">
+      <option name="closed" value="true" />
+      <created>1734368782014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734368782015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +186,7 @@
     <MESSAGE value="Modificações Daniel v1.2" />
     <MESSAGE value="Modificações Daniel v1.3" />
     <MESSAGE value="Modificações Daniel v1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificações Daniel v1.4" />
+    <MESSAGE value="Modificações Daniel v1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificações Daniel v1.5" />
   </component>
 </project>
