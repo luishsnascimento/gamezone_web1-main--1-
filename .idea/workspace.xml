@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.5">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/foto4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2024_19_48_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="f93c69c1-3c4f-4f05-a3c5-67b884dd2abb" name="Changes" comment="Modificações Daniel v1.6">
+      <change afterPath="$PROJECT_DIR$/f1/f1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f1/pag_f1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f1/pag_f1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba/nba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba/nba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nba/pag_nba.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nfl.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfl/nfl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pag_nfl.js" beforeDir="false" afterPath="$PROJECT_DIR$/nfl/pag_nfl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/quem-somos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,7 +39,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -51,6 +56,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2q8JJJ0G7WeC1nIqzDyBE8SmKjV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,9 +66,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel Limaverde/WebstormProjects/esportagem_web1/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,6 +84,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Daniel Limaverde\WebstormProjects\esportagem_web1\images" />
       <recent name="C:\Users\Daniel Limaverde\WebstormProjects\esportagem_web1\images\noticias" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel Limaverde\WebstormProjects\gamezone_web1\nfl" />
+      <recent name="C:\Users\Daniel Limaverde\WebstormProjects\gamezone_web1\nba" />
+      <recent name="C:\Users\Daniel Limaverde\WebstormProjects\gamezone_web1\f1" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -97,7 +112,10 @@
       <workItem from="1734093737999" duration="8535000" />
       <workItem from="1734109590900" duration="728000" />
       <workItem from="1734361665555" duration="5112000" />
-      <workItem from="1735301788620" duration="1805000" />
+      <workItem from="1735301788620" duration="4979000" />
+      <workItem from="1735821394593" duration="2018000" />
+      <workItem from="1735823666778" duration="12800000" />
+      <workItem from="1735911148304" duration="14491000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações Daniel v1.0">
       <option name="closed" value="true" />
@@ -163,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734368782015</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modificações Daniel v1.6">
+      <option name="closed" value="true" />
+      <created>1735303631604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735303631604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +213,7 @@
     <MESSAGE value="Modificações Daniel v1.3" />
     <MESSAGE value="Modificações Daniel v1.4" />
     <MESSAGE value="Modificações Daniel v1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificações Daniel v1.5" />
+    <MESSAGE value="Modificações Daniel v1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificações Daniel v1.6" />
   </component>
 </project>

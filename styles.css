@@ -96,6 +96,7 @@ main {
 .total{
     justify-content: center;
     align-content: center;
+    display: contents;
 }
 
 /* Estilo do container principal das imagens */
@@ -343,20 +344,46 @@ hr {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
+    margin-left: 5px;
 }
 
-/* Cores diferentes para cada esporte */
-.formula-1 h5 {
+.titulo-f1-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     background-color: #252422;
 }
 
-.nfl h5 {
+.titulo-nfl-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     background-color: #252422;
 }
 
-.nba h5 {
+.titulo-nba-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     background-color: #252422;
 }
+
+/* Ajusta o estilo da imagem do título */
+.titulo-f1-section img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.titulo-nlf-section img {
+    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.titulo-nba-section img {
+    width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 
 /* Lista de resultados */
 .sports-section ul {
