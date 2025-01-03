@@ -124,6 +124,7 @@ main {
 
 .resultados-container {
     display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     height: auto;
     align-content: center;
@@ -325,7 +326,6 @@ h1, h2 {
 }
 
 
-/* Estilizando os links nos títulos das publicações */
 .conteudo-noticia h3 a {
     text-decoration: none; /* Remove o sublinhado padrão */
     color: #333;
@@ -428,4 +428,20 @@ footer {
     margin-top: 20px;
     font-size: 14px;
     color: #ccc;
+}
+
+/* Responsividade para o footer em telas menores */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 15px;
+    }
+
+    .footer-social {
+        margin-top: 15px;
+    }
 }
