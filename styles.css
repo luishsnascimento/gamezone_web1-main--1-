@@ -417,23 +417,6 @@ hr {
     color: #252422;
 }
 
-/* Estilo para a seção de propaganda */
-.widget-propaganda {
-    margin-top: 20px; /* Espaço acima da propaganda */
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-    width: 100%; /* Garante que a div se ajuste ao contêiner pai */
-    overflow: hidden; /* Evita que o conteúdo exceda os limites */
-    box-sizing: border-box; /* Inclui padding e border no cálculo de largura */
-}
-
-.widget-image {
-    max-width: 300px; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 100%; /* Previne que a imagem seja muito alta */
-    height: auto; /* Mantém a proporção correta da imagem */
-    border-radius: 8px; /* Deixa as bordas arredondadas (opcional) */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adiciona um leve sombreamento (opcional) */
-}
-
 .conference-container {
     display: flex;
     flex-wrap: wrap;

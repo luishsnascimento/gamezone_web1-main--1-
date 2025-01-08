@@ -105,261 +105,6 @@ main {
     left: 0; /* Quando ativo, o menu aparece na tela */
 }
 
-/* ---------------------------------------------------------------------- */
-
-.temporada-2024{
-    background-color: #f4f4f4;
-    h1{
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-}
-
-.temporada-2024-container{
-    display: flex;
-    max-width: 100vw;
-    align-items: center;
-    justify-content: center;
-}
-
-.resultados-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.resultados-pilotos {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.resultados-equipes {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.resultados-pilotos img{
-    width: 30px;
-    padding-right: 5px;
-}
-
-.resultados-equipes img{
-    width: 30px;
-    padding-right: 5px;
-    vertical-align: center;
-}
-
-.tabela-container{
-    width: 90%;
-    padding: 20px;
-    align-content: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #f7f7f7;
-}
-
-.tabela-container-equipes{
-    width: 90%;
-    padding: 20px;
-    align-content: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #f7f7f7;
-}
-
-.tabela {
-    width: 100%;
-    height: 90%;
-    padding-left: 10px;
-    border-collapse: separate;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-
-.tabela-equipes{
-    width: 100%;
-    height: 93%;
-    padding-left: 10px;
-    border-collapse: separate;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-
-th {
-    padding: 12px;
-    text-align: left;
-    color: black;
-}
-
-td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-}
-
-.td-ultimo{
-    border-bottom: none;
-}
-
-h1, h2 {
-    font-size: 2rem;
-}
-
-.temporada-2025 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-
-    background-color: #f4f4f4;
-    h1 {
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-}
-
-.temporada-2025-container {
-    max-width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.eventos-2025{
-    background-color: #f7f7f7;
-    border-radius: 20px;
-    width: 95%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-.eventos-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.evento {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-    img{
-        width: 200px;
-        height: 150px;
-        max-height: 200px;
-        border-radius: 10px;
-        display: flex;
-    }
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    margin-bottom: 15px;
-    
-    .evento-texto{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .evento-date{
-        font-size: 20px;
-        text-align: center;
-        color: #252422;
-        margin-right: 25px;
-    }
-
-    .bandeira-branca{
-        border: 2px solid #ccc;
-    }
-}
-
-.noticias-container{
-    /*border: 2px solid red;*/
-    border-radius: 20px;
-    width: 95%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-color: #f7f7f7;
-
-    img{
-        width: 300px;
-        height: auto;
-        margin-right: 15px;
-        border-radius: 5px;
-    }
-}
-
-.noticias{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.conteudo-noticia{
-    display: flex;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
-
-.conteudo-noticia h3 a {
-    text-decoration: none; /* Remove o sublinhado padrão */
-    color: #333;
-    font-size: 30px;
-    font-weight: bold; /* Deixa o texto em negrito */
-    transition: color 0.3s ease, text-decoration 0.3s ease; /* Adiciona uma transição suave */
-}
-
-.conteudo-noticia h3 a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-    color: blue; /* Muda a cor para azul no hover */
-}
-
-.conteudo-noticia h3 a:active {
-    color: darkblue; /* Muda a cor para azul escuro quando clicado */
-}
-
-.resumo-noticia {
-    font-size: 18px;
-    color: #555;
-    margin: 5px 0;
-}
-
-.data-noticia {
-    font-size: 14px;
-    color: #777;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-}
-
 /* Estilização do footer */
 footer {
     height: 80px;
@@ -430,18 +175,250 @@ footer {
     color: #ccc;
 }
 
-/* Responsividade para o footer em telas menores */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
+.conference-24-25{
+    background-color: #f4f4f4;
+    h1{
+        padding-top: 10px;
+        padding-left: 10px;
     }
+}
 
-    .footer-links {
-        margin-top: 15px;
-    }
+.conference-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100vw;
+    justify-content: center;
+    padding-bottom: 30px;
+}
 
-    .footer-social {
-        margin-top: 15px;
+.conference {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.division {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.team img {
+    width: 32px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.highlight {
+    background-color: #d4edda; /* Verde claro */
+    border-left: 5px solid #28a745;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.legend {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.legend .highlight {
+    color: #155724;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #d4edda;
+    border-radius: 3px;
+}
+.team strong {
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 2rem;
+}
+
+.team.wild-card {
+    background-color: rgb(243, 243, 91); /* Cor de fundo amarela para destaque */
+    border-radius: 5px; /* Bordas arredondadas para um efeito visual agradável */
+    padding: 5px; /* Adiciona espaçamento interno */
+}
+
+.legend .wild-card {
+    color: rgb(129, 129, 36);
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(243, 243, 91);
+    border-radius: 3px;
+}
+
+.conference img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.eventos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
+    background-color: #f4f4f4;
+    h1 {
+        padding-top: 10px;
+        padding-left: 10px;
     }
+}
+
+.quadro-eventos{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventos-geral{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 93%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.eventos{
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+.teams .team-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 15px;
+}
+
+.teams .vs {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.details {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 0.5 ;
+    color: #666;
+}
+
+.noticias-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
+    background-color: #f4f4f4;
+    h1 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+}
+
+.noticias-container{
+    /*border: 2px solid red;*/
+
+    border-radius: 20px;
+    width: 93%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+
+    img{
+        width: 300px;
+        height: auto;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+}
+
+.quadro-noticias{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-noticia{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+.conteudo-noticia h3 a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #333;
+    font-size: 30px;
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.conteudo-noticia h3 a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: blue; /* Muda a cor para azul no hover */
+}
+
+.conteudo-noticia h3 a:active {
+    color: darkblue; /* Muda a cor para azul escuro quando clicado */
+}
+
+.resumo-noticia {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.data-noticia {
+    font-size: 14px;
+    color: #777;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
 }
